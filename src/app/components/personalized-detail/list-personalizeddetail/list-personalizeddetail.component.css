@@ -1,0 +1,51 @@
+.container {
+    max-width: 60%;
+    /* Reduce el ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor */
+    padding: 50px 10px 10px 10px;
+    /* Reduce el relleno */
+}
+
+.title-container {
+    text-align: center;
+    /* Centra el texto del título */
+    margin-bottom: 10px;
+    /* Reduce el margen inferior */
+}
+
+.title {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    /* La tabla ocupa todo el ancho del contenedor */
+    border-collapse: collapse;
+    /* Colapsa los bordes de la tabla */
+    font-size: 0.8rem;
+    /* Reduce el tamaño de fuente de la tabla */
+}
+
+img {
+    max-width: 3cm;
+    /* Reduce el tamaño máximo de las imágenes */
+    max-height: 3cm;
+    /* Reduce la altura máxima de las imágenes */
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir el área */
+    padding: 10px;
+}
+
+/* Establece la separación entre los botones */
+.button-spacing {
+    margin: 0 5px;
+    /* Ajusta los valores de margen según sea necesario */
+}
+
+/* Ajusta el tamaño de los íconos */
+.small-icon mat-icon {
+    font-size: 5px;
+    /* Ajusta el tamaño según tus necesidades */
+}
