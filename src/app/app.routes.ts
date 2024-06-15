@@ -35,7 +35,7 @@ import { InsertPurchaseDetailComponent } from './components/purchase-detail/inse
 
 export const routes: Routes = [
   {
-    path: '#/moduloUbicacion', component: ModuloUbicacionComponent,
+    path: 'moduloUbicacion', component: ModuloUbicacionComponent,
     children: [
       {
         path: 'paises', component: CountryComponent,
